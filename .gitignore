@@ -1,6 +1,9 @@
 # Generated files
 lib
 
+# dotenv file
+.env
+
 # Logs
 logs
 *.log
