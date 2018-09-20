@@ -6,6 +6,7 @@
   "scripts": {
     "build": "babel --ignore **/__tests__ --out-dir lib src",
     "dev": "nodemon --exec \"node -r babel-register -r dotenv/config\" src",
+    "start": "node lib/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
