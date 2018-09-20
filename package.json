@@ -1,0 +1,33 @@
+{
+  "name": "@luk707/cms-server",
+  "version": "0.0.1",
+  "description": "NodeJS CMS Server",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel --ignore **/__tests__ --out-dir lib src",
+    "dev": "nodemon --exec \"node -r babel-register -r dotenv/config\" src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luk707/cms-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/luk707/cms-server/issues"
+  },
+  "homepage": "https://github.com/luk707/cms-server#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "dotenv": "^6.0.0",
+    "nodemon": "^1.18.4"
+  }
+}
