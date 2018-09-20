@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/luk707/cms-server#readme",
   "dependencies": {
+    "babel-runtime": "^6.26.0",
     "bcrypt": "^3.0.0",
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
