@@ -2,3 +2,4 @@ version: "3"
 services:
   cms-server:
     build: .
+    env_file: .env
